@@ -6,7 +6,7 @@ public class Student {
     String address = "DN";
     String phone = "0899000";
 
-    public void displayInfo(){
+    public void displayInfo() {
         System.out.println("Ten: " + name);
         System.out.println("Tuoi: " + age);
         System.out.println("Address: " + address);
@@ -14,11 +14,18 @@ public class Student {
 
     }
 
-    public String getName(){
+    public String getName() {
         return name;
     }
 
     public static void main(String[] args) {
+        // Khai báo đối tượng thuộc lớp Student
+        Student sv1 = new Student();
+        sv1.displayInfo();
+        sv1.getName();
 
+        Student sv2 = new Student();
+        sv2.displayInfo();
+        sv2.getName();
     }
 }
