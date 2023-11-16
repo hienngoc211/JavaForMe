@@ -20,4 +20,12 @@ public class Person {
     public String getName(){
         return name;
     }
+
+    public float getHeight(){
+        return height;
+    }
+
+    public static void main(String[] args) {
+        Person person = new Person("Dung", 32, 165);
+    }
 }
