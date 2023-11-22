@@ -27,5 +27,6 @@ public class Person {
 
     public static void main(String[] args) {
         Person person = new Person("Dung", 32, 165);
+        person.getInfo();
     }
 }

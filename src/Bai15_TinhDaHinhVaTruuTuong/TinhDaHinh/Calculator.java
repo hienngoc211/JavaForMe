@@ -14,7 +14,7 @@ public class Calculator {
         return number1 * number2;
     }
 
-    public double phepNhan(float number1, float number2) {
+    public double phepNhan(double number1, double number2) {
         return number1 * number2;
     }
 

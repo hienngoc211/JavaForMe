@@ -2,7 +2,7 @@ package Bai13_TrangThaiStatic;
 
 public class ThongTin {
 
-    public void thongTin(){
+    public void getInfo(){
         System.out.println(Demo_BienStatic.className);
         Demo_BienStatic bienStatic1 = new Demo_BienStatic();
         System.out.println(bienStatic1.className);
@@ -14,7 +14,7 @@ public class ThongTin {
     public static void main(String[] args) {
         System.out.println(Demo_BienStatic.className);
         ThongTin thongtin1 = new ThongTin();
-        thongtin1.thongTin();
+        thongtin1.getInfo();
 
     }
 }

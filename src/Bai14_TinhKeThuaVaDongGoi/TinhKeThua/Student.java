@@ -10,7 +10,7 @@ public class Student extends Person {
         this.address = address;
     }
 
-    public void getInfo(){
+    public void getInfo() {
         super.getInfo(); // Hàm này sẽ hiểu lấy từ class Cha
     }
 
@@ -30,6 +30,6 @@ public class Student extends Person {
         System.out.println(student.getPhone());
         System.out.println(student.getAddress());
         System.out.println(student.getHeight());
-
+        System.out.println(student.getName()); // lấy từ class Cha
     }
 }
